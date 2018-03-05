@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.27130.2036
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LineBotResponser", "LineBotResponser\LineBotResponser.csproj", "{BC126448-1B57-4054-8B8E-862D387DD708}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LineBotResponser.Test", "LineBotResponser.Test\LineBotResponser.Test.csproj", "{B5AA9B33-6DC3-48A9-A799-76BD360420AD}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{BC126448-1B57-4054-8B8E-862D387DD708}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BC126448-1B57-4054-8B8E-862D387DD708}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BC126448-1B57-4054-8B8E-862D387DD708}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BC126448-1B57-4054-8B8E-862D387DD708}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B5AA9B33-6DC3-48A9-A799-76BD360420AD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B5AA9B33-6DC3-48A9-A799-76BD360420AD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B5AA9B33-6DC3-48A9-A799-76BD360420AD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B5AA9B33-6DC3-48A9-A799-76BD360420AD}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {E1AE02AE-97FA-43CE-B635-9BBD429B4109}
+	EndGlobalSection
+EndGlobal
