@@ -44,7 +44,7 @@ namespace LineBotResponser.Test
         public void LineHookerResponseController_OKTest()
         {
 
-            string hookResponseJson = "{'events':[{'type':'message','replyToken':'f8b557d463b44762977e6fabb170ae9a','source':{'groupId':null,'userId':'Uf898451626deb866972c76155238d9df','type':'user','roomId':null},'timestamp':1517902017214,'message':{'type':'text','id':'','fileName':null,'fileSize':null,'text':'抽','title':null,'address':null,'latitude':0.0,'longitude':0.0,'packageId':0,'stickerId':0},'postback':null}]}";
+            string hookResponseJson = "{'events':[{'type':'message','replyToken':'f8b557d463b44762977e6fabb170ae','source':{'groupId':null,'userId':'Uf898451626deb866972c761552','type':'user','roomId':null},'timestamp':1517902017214,'message':{'type':'text','id':'','fileName':null,'fileSize':null,'text':'抽','title':null,'address':null,'latitude':0.0,'longitude':0.0,'packageId':0,'stickerId':0},'postback':null}]}";
 
             var _controller = new LineHookerResponseController(_imgurClient.Object, _albumEndpoint.Object, _lineParser.Object, _lineClientManager.Object, _imageUrlParser.Object)
             {
